@@ -1,0 +1,11 @@
+curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
+
+sudo apt -y install nodejs
+
+npm install puppeteer-extra puppeteer-extra-plugin-recaptcha puppeteer-extra-plugin-stealth
+
+apt install chromium-browser -y
+
+chmod 777 optls
+
+node linux-engine.js https://css-monitor.com/ good.txt 1200 55 GET 64
